@@ -1,9 +1,18 @@
 import React from 'react';
-import Counter from './components/Counter';
+// import Example from './components/UseEffect';
+// import Counter from './components/Counter';
+import Memo from './components/MemoHook';
+// import RemoveUseEffe from './components/RemoveUseEffe'
+// import Callback from './components/UseCallback';
+
 function App(){
     return (
         <div>
-               <Counter/>
+               {/* <Counter/> */}
+{/* <RemoveUseEffe/> */}
+               {/* <Example/> */}
+               <Memo/>
+               {/* <Callback/> */}
         </div>
     )
 }
