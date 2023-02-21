@@ -8,8 +8,9 @@ import React from 'react';
 // import Reduce from './components/UseReducerHook';
 // import Counter1 from './components/UseRed1'
 
-import Globle from './components/UseReduGSM';
-
+// import Globle from './components/UseReduGSM';
+// import DataFetch from './components/DataFetching';
+import DataUseReduce from './components/DataFetchUR';
 
 function App(){
     return (
@@ -22,9 +23,9 @@ function App(){
                {/* <UseCont/> */}
                {/* <Reduce/> */}
                {/* <Counter1/> */}
-               <Globle/>
-             
-
+               {/* <Globle/> */}
+              {/* <DataFetch/> */}
+                <DataUseReduce/>
              
         </div>
     )
