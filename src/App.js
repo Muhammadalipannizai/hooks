@@ -4,17 +4,28 @@ import React from 'react';
 // import Memo from './components/MemoHook';
 // import RemoveUseEffe from './components/RemoveUseEffe'
 // import Callback from './components/UseCallback';
-import UseCont  from './components/UContext'
+// import UseCont  from './components/UContext';
+// import Reduce from './components/UseReducerHook';
+// import Counter1 from './components/UseRed1'
+
+import Globle from './components/UseReduGSM';
+
 
 function App(){
     return (
         <div>
                {/* <Counter/> */}
-{/* <RemoveUseEffe/> */}
+               {/* <RemoveUseEffe/> */}
                {/* <Example/> */}
                {/* <Memo/> */}
                {/* <Callback/> */}
-               <UseCont/>
+               {/* <UseCont/> */}
+               {/* <Reduce/> */}
+               {/* <Counter1/> */}
+               <Globle/>
+             
+
+             
         </div>
     )
 }
