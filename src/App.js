@@ -10,7 +10,9 @@ import React from 'react';
 
 // import Globle from './components/UseReduGSM';
 // import DataFetch from './components/DataFetching';
-import DataUseReduce from './components/DataFetchUR';
+// import DataUseReduce from './components/DataFetchUR';
+import UseRefInputfocus from './components/UseRefInput';
+import UseRefTimer from './components/UseRefTimer';
 
 function App(){
     return (
@@ -25,8 +27,9 @@ function App(){
                {/* <Counter1/> */}
                {/* <Globle/> */}
               {/* <DataFetch/> */}
-                <DataUseReduce/>
-             
+                {/* <DataUseReduce/> */}
+                <UseRefInputfocus/>
+             <UseRefTimer/>
         </div>
     )
 }
